@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-color: #003443;
+    --outerCont: #04556E;
+}
+
+body { 
+    background-color: var(--bg-color);
+}
+.outmostcontainer { 
+    background-color: var(--outerCont);
+    width: 67.916vw;
+    height: 85.926vh;
+    margin-left: 3.75vw;
+    margin-top: 3.027vh;
+    display: flex;
+}
