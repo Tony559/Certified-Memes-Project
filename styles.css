@@ -1,21 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Jacques Francois", serif;
 }
 :root {
+    --boxshadow: 0px 4px 4px rgba(0,0,0,.25);
     --bg-color: #003443;
     --outerCont: #04556E;
 }
 
 body { 
     background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 .outmostcontainer { 
     background-color: var(--outerCont);
-    width: 67.916vw;
+    width: 67.9166vw;
     height: 85.926vh;
-    margin-left: 3.75vw;
-    margin-top: 3.027vh;
+    margin-left: 5.3125vw;
+    margin-top: 3.2407vh;
     display: flex;
+    border-radius: 10px;
+    box-shadow: var(--boxshadow);
+    
+}
+.catspeak-cont {
+    display: flex;
+    margin-top: 3.2407vh;
+    margin-left: 1.666vw;
+    height: 85.9259vh;
+    width: 23.4375vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.catchat-outer {
+    width: 23.4275vw;
+    height: 37.5vh;
+    display: flex;
+    background-color: #04556E;
+    border-radius: 10px;
+    box-shadow: var(--boxshadow);
+   
+}
+
+.elgato .outerbox { 
+    background-color: #04556E;
+    width: 17.5520vw; 
+    height: 2.77777vh;  
+    margin-bottom: 2.2222vh;
+    border-radius: 10px;
+    box-shadow: var(--boxshadow);
+}
+.bottombuttons { 
+    width: 16.7187vw;
+    margin-top: 2.96296vh;
+    margin-left: 30.88541vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottombuttons button { 
+    height: 3.79629vh;
+    background-color: #416D91;
+    border-radius: 100px;
+    outline: none; 
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0,0,0,.25);
+    color: white;
+    font-size: 2rem;
+    text-shadow: var(--boxshadow);
+    line-height: normal;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#select {
+
+    width: 8.9062vw;
+}
+#left, #right { 
+
+    width: 2.91666vw;
 }
