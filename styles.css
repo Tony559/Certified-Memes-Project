@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Jacques Francois", serif;
+    font-family: "Jacques Francois";
+    color: white;
+    font-weight: 400;
 }
 :root {
     --boxshadow: 0px 4px 4px rgba(0,0,0,.25);
@@ -28,8 +30,21 @@ body {
     display: flex;
     border-radius: 10px;
     box-shadow: var(--boxshadow);
-    
+    justify-content: center;
+    align-items: center;
 }
+
+.mediumcontainer {
+    width: 66.4583vw;
+    background-color: #006583;
+    border-radius: 10px;
+    height: 83.9814vh;
+    box-shadow: var(--boxshadow);
+}
+
+
+
+
 .catspeak-cont {
     display: flex;
     margin-top: 3.2407vh;
@@ -48,8 +63,49 @@ body {
     background-color: #04556E;
     border-radius: 10px;
     box-shadow: var(--boxshadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
+
+.catchat-inner {
+    background-color: #006583;
+    border-radius: 10px;
+    display: flex;
+
+    align-items: center;
+    width: 22.187vw;
+    height: 34.444vh;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: var(--boxshadow);
+    text-shadow: var(--boxshadow);
+}
+.catchat-inner p {
+    font-size: 1.25rem;
+    width: 14.8437vw;
+}
+.catchat-inner h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+#nameholder {
+    margin-top: 2rem;
+}
+#printbutton {
+    padding: .5rem 1.6rem;
+    font-size: 1.25rem;
+    border-radius: 1000px;
+    outline: none;
+    border: none;
+    text-shadow: var(--boxshadow);
+    background-color: #406D91;
+    box-shadow: var(--boxshadow);
+    margin-top: 3rem;
+}
+
 
 .elgato .outerbox { 
     background-color: #04556E;
@@ -58,7 +114,19 @@ body {
     margin-bottom: 2.2222vh;
     border-radius: 10px;
     box-shadow: var(--boxshadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.elgato .innerbox {
+    width: 16.6145vw;
+    height: 1.8518vh;
+    background-color: #006583;
+    border-radius: 10px;
+    box-shadow: var(--boxshadow);
+}
+
 .bottombuttons { 
     width: 16.7187vw;
     margin-top: 2.96296vh;
@@ -68,6 +136,8 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+
 .bottombuttons button { 
     height: 3.79629vh;
     background-color: #416D91;
@@ -84,6 +154,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
+
 }
 #select {
 
@@ -92,4 +163,47 @@ body {
 #left, #right { 
 
     width: 2.91666vw;
+}
+
+
+
+
+
+
+#cert3 {
+    background-color: #E4AE0D;
+    display: flex;
+    width: 66.45833vw;
+    height: 83.9814vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#whitebg { 
+    background-color: white;
+    width: 64.687vw;
+    height: 81.666666vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lastcontainerlol {
+    border: solid 3px #CDAB02;
+    width: 63.75vw;
+    height: 80vh;
+}
+    
+
+
+
+#cert2 {
+    display: none;
+}
+#cert1 {
+    display: none;
+}
+.elgato img {
+    margin-left: 5rem;
 }
