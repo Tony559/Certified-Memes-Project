@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Jacques+Francois&family=Julius+Sans+One&family=Kablammo&family=Kumar+One&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Jacques Francois";
-    color: white;
+
     font-weight: 400;
 }
 :root {
@@ -81,6 +81,7 @@ body {
     flex-direction: column;
     box-shadow: var(--boxshadow);
     text-shadow: var(--boxshadow);
+    color: white;
 }
 .catchat-inner p {
     font-size: 1.25rem;
@@ -104,6 +105,7 @@ body {
     background-color: #406D91;
     box-shadow: var(--boxshadow);
     margin-top: 3rem;
+    color: white;
 }
 
 
@@ -125,6 +127,7 @@ body {
     background-color: #006583;
     border-radius: 10px;
     box-shadow: var(--boxshadow);
+    color: white;
 }
 
 .bottombuttons { 
@@ -154,7 +157,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-
+    color: white;
 }
 #select {
 
@@ -193,6 +196,12 @@ body {
     border: solid 3px #CDAB02;
     width: 63.75vw;
     height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
     
 
@@ -201,9 +210,311 @@ body {
 #cert2 {
     display: none;
 }
+
+.elgato img {
+    margin-left: 5rem;
+}
+#name-grabber { 
+    color: black;
+}
+
+
+
+#lastcontainerlol .cat1 { 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#lastcontainerlol .cat2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#lastcontainerlol .cat3 { 
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#lastcontainerlol .cat4 { 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#lastcontainerlol h2 { 
+    font-family: "Julius Sans One", serif;
+    font-size: 4rem;
+    font-weight: 400;
+    width: 27.7083vw;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+#lastcontainerlol .certified {
+    font-family: "Kumar One", serif;
+    font-size: 3.56rem;
+    font-weight: 400;
+    width: 28.4375vw;
+    height: fit-content;
+    margin-top: 4rem;
+}
+#lastcontainerlol .presentedTo { 
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+#lastcontainerlol .description { 
+    margin-top: 3rem;
+    height: fit-content;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    width: 18.8020833vw;
+    font-size: 1.375rem;
+}
+
+#lastcontainerlol .issuecont { 
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 24.583vw;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.issuecont p {
+    font-family: "Jacques Francois", serif;
+    font-size: 1.125rem;
+    font-weight: 550;
+}
+#lastcontainerlol #nameplate { 
+    font-size: 2.5rem;
+}
+
+.issuecont .issuedBy {
+    margin-bottom: 2rem;
+}
+.issuecont .date {
+    margin-bottom: 2rem;
+}
+
+#cert3 { 
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+#cert1 .mainbg {
+    background-color: #FFF4C9;
+    display: flex;
+    width: 66.45833vw;
+    height: 83.9814vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cert1 .whitebg {
+    background-color: #FFFEFB;
+    width: 59.0104vw;
+    height: 73.055vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#cert1 .bordermain {
+    width: 57.9166vw;
+    height: 70.74074vh;
+    border: 3px solid #7D7907;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#ribbonarea { 
+    display: flex;
+    width: 23.9583333vw;
+    height: 12.777vh;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#honortitle {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    top: 13%;
+    font-size: 1.75rem;
+}
+.bordermain #date { 
+    position: absolute;
+    bottom: 15%;
+}
+
+#vid2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#vid1 { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bordermain #description { 
+    width: 17.0833vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+.bordermain h2 { 
+    font-size: 7.125rem;
+    font-family: "Italianno", serif;
+
+}
+.bordermain .presentedTo {
+    font-size: 1.8125rem;
+}
+
+#nameplate { 
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
 #cert1 {
     display: none;
 }
-.elgato img {
-    margin-left: 5rem;
+
+
+
+
+
+
+
+
+#cert2 {
+    display: flex;
+    font-family: "Kablammo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0;
+}
+#cert2 .mainbg { 
+    background-color: #C8FFC8;
+    display: flex;
+    width: 66.45833vw;
+    height: 83.9814vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cert2 .secondbg {
+    background-color: #35F835;
+    width: 64.2187vw;
+    height: 81.296296vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#cert2 .abordermain {
+    width: 62.8645vw;
+    height: 79.44444vh;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.abordermain h2 {
+    font-size: 4rem;
+    width: 25vw;
+    text-align: center;
+}
+.abordermain .presentedTo { 
+    font-size: 1.75rem;
+}
+
+
+
+
+#cert2 #description {
+    width: 35.7812vw;
+    height: fit-content;
+    text-align: center;
+    font-family: "Kablammo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0;
+
+}
+.abordermain .cat1 {
+    position: absolute;
+    top: -15%;
+    left: 0;
+    transform: rotate(-20deg);
+    width: 22.11458vw;
+}
+.abordermain .cat2 {
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 23.125vw;
+}
+.abordermain .cat3 {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 12.812vw;
+}
+.abordermain .cat4 {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width: 11.5625vw;
+}
+.medaldateissue {
+    display: flex;
+    flex-direction: row;
+    width: 21.4062vw;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+}
+.abordermain .presentedTo, 
+.abordermain h2, .medaldateissue p {
+    font-family: "Kablammo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 0;
+}
+#issueddBy {
+    flex-wrap: wrap;
+    text-align: center;
+    width: 4.63541vw;
+    height: fit-content;
+}
+.medaldateissue #date {
+    width: 4.479166vw;
+    height: fit-content;
 }
