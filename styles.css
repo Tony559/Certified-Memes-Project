@@ -207,9 +207,6 @@ body {
 
 
 
-#cert2 {
-    display: none;
-}
 
 .elgato img {
     margin-left: 5rem;
@@ -297,9 +294,6 @@ body {
     margin-bottom: 2rem;
 }
 
-#cert3 { 
-    display: none;
-}
 
 
 
@@ -391,9 +385,6 @@ body {
     margin-top: 2rem;
 }
 
-#cert1 {
-    display: none;
-}
 
 
 
@@ -518,3 +509,57 @@ body {
     width: 4.479166vw;
     height: fit-content;
 }
+.mediumcontainer { 
+    position: relative;
+
+}
+.carousel-button { 
+    position: absolute; 
+    width: 2.447916vw;
+    height: 5.925vh;
+    background-color: #416D91;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--boxshadow);
+    cursor: pointer;
+}
+.carousel-button:hover {
+    cursor: pointer;
+}
+.prev { 
+    margin-left: 2%;
+    left: 0;
+    top: 50%;
+}
+.next { 
+    right: 0;
+    top: 50%;
+    margin-right: 2%;
+}
+.slide { 
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+
+.slide > div {
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    object-position: center;
+}
+.slide[data-active] {
+    opacity: 1;
+    transition-delay: 0ms;
+    z-index: 1;
+}
+

@@ -10,8 +10,16 @@
     <div class="outmostcontainer">
         <!-- cert 1, cert 2, cert 3 CAROUSEL -->
          <div class="mediumcontainer">
-            <div class="innermostcontainer">
-                <div id="cert1">
+
+                <button class="carousel-button prev" data-carousel-button="prev" ><img src="images/leftarrow.png"></button>
+                <button class="carousel-button next" data-carousel-button="next" ><img src="images/rightarrow.png"></button>
+
+            <div class="innermostcontainer" data-carousel data-slides>
+
+                
+
+
+                <div id="cert1" class="slide" data-active>
                     <div class="mainbg">
                         <div class="whitebg">
                             <div class="bordermain">
@@ -41,7 +49,7 @@
 
 
 
-                <div id="cert2">
+                <div id="cert2" class="slide">
                     <div class="mainbg">
                         <div class="secondbg">
                             <div class="abordermain">
@@ -78,7 +86,7 @@
 
 
                 </div>
-                <div id="cert3">
+                <div id="cert3" class="slide">
                     <div id="whitebg">
                         <div id="lastcontainerlol">
                             <img src="images/umidk/rizzcat.png" alt="rizz cat" class="cat1">
@@ -135,9 +143,9 @@
         </div>
     </div>
     <div class="bottombuttons">
-        <button id="left"><img src="images/leftarrow.png" alt="left arrow"></button>
+        <button id="left" data-carousel-button="prev"><img src="images/leftarrow.png" alt="left arrow"></button>
         <button id="select">Select?</button>
-        <button id="right"><img src="images/rightarrow.png" alt="right arrow"></button>
+        <button id="right" data-carousel-button="next"><img src="images/rightarrow.png" alt="right arrow"></button>
     </div>
 
     <script src="script.js"></script>
