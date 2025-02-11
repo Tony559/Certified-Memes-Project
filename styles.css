@@ -526,6 +526,7 @@ body {
     align-items: center;
     box-shadow: var(--boxshadow);
     cursor: pointer;
+    z-index: 2;
 }
 .carousel-button:hover {
     cursor: pointer;

@@ -12,6 +12,10 @@ buttons.forEach(button => {
             newIndex = slides.children.length - 1;
         }
         if (newIndex >= slides.children.length) { newIndex = 0 }
-            
+            console.log(newIndex);
+        slides.children[newIndex].dataset.active = true;
+        delete activeSlide.dataset.active;
     })
+
 })
+
