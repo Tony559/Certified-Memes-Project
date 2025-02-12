@@ -628,3 +628,12 @@ button:active {
 }
 
 
+@media print { 
+    .gethiddenbro { 
+        display: none;
+    }
+    .slide[data-active] {
+        display: block;
+    }
+
+}

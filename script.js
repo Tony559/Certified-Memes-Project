@@ -96,10 +96,3 @@ function disabler() {
 certSelector.addEventListener("click", (disabler));
 
 
-
-printDivCSS = new String ('<link href="styles.css" rel="stylesheet">')
-            function printDiv(divId) {
-                window.frames["print_frame"].document.body.innerHTML=printDivCSS + document.querySelector(.slide[data-active]).innerHTML;
-                window.frames["print_frame"].window.focus();
-                window.frames["print_frame"].window.print();
-            }
